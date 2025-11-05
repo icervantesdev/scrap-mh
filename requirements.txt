@@ -2,3 +2,8 @@ pandas
 tkcalendar
 selenium
 openpyxl
+pytube
+yt-dlp
+mutagen
+requests
+tqdm
