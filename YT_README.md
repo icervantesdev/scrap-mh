@@ -48,7 +48,25 @@ Script avanzado para descargar audio y video de YouTube con metadata mejorada y 
 
 ## Instalación
 
-### Requisitos
+### Requisitos del Sistema
+
+**Requerido:**
+- Python 3.7+
+- `ffmpeg` - Para conversión de audio/video
+
+**Instalar ffmpeg:**
+```bash
+# Ubuntu/Debian
+sudo apt-get install ffmpeg
+
+# macOS (con Homebrew)
+brew install ffmpeg
+
+# Windows (con Chocolatey)
+choco install ffmpeg
+```
+
+### Dependencias de Python
 ```bash
 pip install -r requirements.txt
 ```
